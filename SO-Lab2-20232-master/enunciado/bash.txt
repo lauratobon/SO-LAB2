@@ -1,0 +1,4 @@
+ls 
+mkdir Carpeta_Prueba 
+pwd 
+exit 

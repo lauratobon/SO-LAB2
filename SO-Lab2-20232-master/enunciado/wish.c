@@ -26,6 +26,8 @@ char e_message[30] = "An error has occurred\n";
 char history[HISTORY_SIZE][BUFFER_SIZE];
 int reg_history_count = 0; // registro del número de elementos en el historial.
 
+void execute_command(char *command, char ***mypath);
+
 int main(int argc, char *argv[])
 {
     // Entrada
